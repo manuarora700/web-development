@@ -1,0 +1,62 @@
+html {
+  background: radial-gradient(#FFF176, #F57F17);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.example {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.button-group {
+  cursor: pointer;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.text {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  letter-spacing: 3px;
+}
+
+.icon {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 42px;
+  box-sizing: border-box;
+  border: 4px solid black;
+  border-left: none;
+  transition: 400ms -webkit-transform ease-in-out;
+  transition: 400ms transform ease-in-out;
+  transition: 400ms transform ease-in-out, 400ms -webkit-transform ease-in-out;
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+}
+
+.button-group:hover .icon {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.button-group {
+  -webkit-perspective: 200px;
+  perspective: 200px;
+  -webkit-perspective-origin: calc(100% - 53px);
+  perspective-origin: calc(100% - 53px);
+}
