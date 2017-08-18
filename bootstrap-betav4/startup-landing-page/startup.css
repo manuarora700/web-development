@@ -71,6 +71,35 @@ img {
 .feature-dark h2 {
   color: white;
 }
+.feature-alt {
+  background: #f0f0f0;
+}
+#feature-four .feature-content {
+  padding: 0;
+}
+#feature-five img {
+  margin-top: 2rem;
+}
+/*Because bootstrap waale wasn't working*/
+.offset-lg-2 {
+  margin-left: 16.666667%;
+}
+.offset-lg-1 {
+  margin-left: 8.33333%;
+}
+#main-footer {
+  background: #262f36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 0.8rem;
+}
+#main-footer h6 {
+  color: #718fa9;
+
+}
+#main-footer a {
+  color: #6c6f73;
+}
 @media screen and (min-width: 991px) {
   .feature-content .row {
     display: flex;
