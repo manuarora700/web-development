@@ -1,0 +1,30 @@
+/*Image Links*/
+/*http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg */
+/*http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg */
+/*http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg */
+/*http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg */
+/*http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg */
+/*http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg */
+/*http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg */
+/*http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg */
+/*http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg*/
+
+img {
+  width: 30%;
+  float: left;
+  /*Float takes up the element and left specifies that the elements align left to the document*/
+  /*Reason why 30% is taken because they all will combine and maake up 90% of the portion (3 in one row) and the remainig 10% will be margin and padding*/
+  margin: 1.66%;
+  /*Margin 1.66 % because we were left with 10% and to split it up in 6 we did 10/6 comes out to be 1.66*/
+
+}
+ p {
+   font-family: Raleway;
+   margin-left: 1.66%;
+   font-size: 40px;
+   text-transform: uppercase;
+   border-bottom: 2px solid #f1f1f1;
+   width: 30%;
+   padding-bottom: 20px;
+
+ }
