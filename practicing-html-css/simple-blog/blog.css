@@ -4,6 +4,8 @@ date color: #3498db
 h2 color: #2c3e50
 font: source sans pro*/
 
+/*If images are not available use the src attribute and put up the url there. It'll work*/
+
 body {
   border: 20px solid #bdc3c7;
   padding: 20px;
