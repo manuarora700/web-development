@@ -5,26 +5,33 @@ var ul = document.querySelector("ul");
 function inputLength() {
 	return input.value.length;
 }
-button.addEventListener("click", function() {
-	if(inputLength() > 0) {
 
+function createListElement() {
 		var li = document.createElement("li");
 		li.appendChild(document.createTextNode(input.value));
 		ul.appendChild(li);
 		input.value = "";
+}
+
+function addListAfterClick() {
+	
+	if(inputLength() > 0) {
+
+		createListElement();
 
 	}
-})
+}
 
-// listening for the keypress event
-input.addEventListener("keypress", function(event) {
+function addListAfterKeypress(event) {
+	
 	// console.log(event.which)
 	if(inputLength() > 0 && event.keyCode === 13) {
 
-		var li = document.createElement("li");
-		li.appendChild(document.createTextNode(input.value));
-		ul.appendChild(li);
-		input.value = "";
+		createListElement();
 
 	}
-})
+}
+button.addEventListener("click", addListAfterClick);
+
+// listening for the keypress event
+input.addEventListener("keypress", addListAfterKeypress);
