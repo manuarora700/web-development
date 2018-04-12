@@ -82,3 +82,15 @@ const obj3 = {
 //Then we just do
 
 const obj4 = {abc, cde, c}
+
+//Template strings
+const name2 = "Sally";
+const age =34
+const pet = "horse";
+// const greeting = "Hello" + name + "You seem to be doing" + greeting + "!";
+
+//This is tedious.
+
+//We now do it this way
+
+const greetingBest = `Hello ${name} you seem to be ${age-10}. What a lovely ${pet} you have`;
