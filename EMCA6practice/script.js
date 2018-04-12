@@ -47,3 +47,12 @@ const obj = {
 const player = obj.player;
 const experience = obj.experience;
 let wizardLevel = obj.wizardLevel;
+
+//THis is the long way
+
+//Let's look at the shorter way
+
+const {player, experience} = obj;
+let {wizardLevel} = obj;
+
+//Much cleaner code
