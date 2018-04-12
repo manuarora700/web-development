@@ -24,3 +24,26 @@ console.log("outside", wizardLevel);
 
 // for example 'bobby' cannot be changed to 'Manu'
 // by typing player = "Manu"
+
+//a constant function that cannot be changed
+const a = function() {
+	console.log("Constant function \'a\'");
+}
+
+
+const obj = {
+	player: 'bobby',
+	experience: 100,
+	wizardLevel: false
+}
+
+//here obj = 5 is illegal but obj.player = "Manu" is legal.
+
+//in other words, property change of const is legal
+//but we cannot change or reassign the variable of an object
+
+//DESTRUCTURING
+
+const player = obj.player;
+const experience = obj.experience;
+let wizardLevel = obj.wizardLevel;
