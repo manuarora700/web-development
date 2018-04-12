@@ -94,3 +94,30 @@ const pet = "horse";
 //We now do it this way
 
 const greetingBest = `Hello ${name} you seem to be ${age-10}. What a lovely ${pet} you have`;
+
+//Default arguments
+let greetingBest2 = "";
+function greet(name='', age=30, pet='Cat') {
+	return greetingBest2 = `Hello ${name} you seem to be ${age-10}. What a lovely ${pet} you have`;
+	//In the parenthesis are default arguments
+}
+
+//Symbol --- Not used very often
+
+let symbol1 = Symbol();
+let symbol2 = Symbol('foo');
+let symbol3 = Symbol('foo');
+
+//Creates unique types
+
+//The best one, arrow functions
+
+function add(a,b) {
+	return a+b;
+}
+
+//This is huge code. The simple syntax is
+
+const add2 = (c,d) => c+d;
+
+//above and below are the same
