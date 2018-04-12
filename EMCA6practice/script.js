@@ -44,15 +44,41 @@ const obj = {
 
 //DESTRUCTURING
 
-const player = obj.player;
-const experience = obj.experience;
-let wizardLevel = obj.wizardLevel;
+const player2 = obj.player;
+const experience3 = obj.experience;
+let wizardLevel4 = obj.wizardLevel;
 
 //THis is the long way
 
 //Let's look at the shorter way
 
-const {player, experience} = obj;
-let {wizardLevel} = obj;
+const {player5, experience6} = obj;
+let {wizardLevel7} = obj;
 
 //Much cleaner code
+
+const name = "john Snow";
+const obj2 = {
+	[name]: 'Hello',
+	[1 + 2]: 'hihi'
+}
+
+//Here we can have something dynamic like name property here
+// using square braces
+
+const abc = "Simon";
+const cde = true;
+const c = {};
+
+const obj3 = {
+	abc: abc,
+	cde: cde,
+	c: c
+}
+
+//This is the older way of assigning values
+
+//the new way is that if the variable names are the same
+//Then we just do
+
+const obj4 = {abc, cde, c}
