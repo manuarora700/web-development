@@ -10,3 +10,10 @@ const first = () => {
 
 const newFunc = first();
 newFunc();
+
+// closures
+
+// The above code is same as
+// const newFunc = const second = () => {
+// 		alert(greet);
+// 	}
