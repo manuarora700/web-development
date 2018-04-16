@@ -31,3 +31,14 @@ const filterArray = array.filter(num =>  {
 	return num > 5;
 })
 console.log('filter', filterArray);
+
+//REDUCE --- really powerful
+//Reduce can do filtering and mapping together
+
+
+const reduceArray = array.reduce((accumulator, num) => {
+	return accumulator + num; //acc remembers what was there previously
+}, 0); //0 is the default value of acc
+
+
+console.log('reduce', reduceArray);
