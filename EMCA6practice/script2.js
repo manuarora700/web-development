@@ -28,5 +28,5 @@ newFunc();
 
 const multiply = (a, b) => a * b;
 const curriedMultiply = (a) => (b) => a*b;
-
-curriedMultiply(3)(4);
+//always multiplyby5
+const multiplyBy5 = curriedMultiply(5);
