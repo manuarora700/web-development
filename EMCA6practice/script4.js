@@ -22,6 +22,8 @@ const object4 = {
 
 class Player {
 	constructor(name, type) {
+		console.log(this);
+
 		this.name = name;
 		this.type = type;
 	}
@@ -30,3 +32,15 @@ class Player {
 	}
 }
 
+class Wizard extends Player {
+	constructor(name, type) {
+		//anytime we extend, we must use super() to call the parent constructor
+		super(name, type);
+	}
+	play() {
+		console.log(`WEEEEEE I'm a ${this.type}`);
+	}
+}
+
+const wizard1 = new Wizard("Manu", "Healer");
+const wizard2= new Wizard("Paaji", "Shooter");
