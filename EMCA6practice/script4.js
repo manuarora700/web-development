@@ -104,3 +104,5 @@ Object.entries(obj).forEach(value => {
 Object.entries(obj).map(value => {
 	return value[1] + value[0].replace('username', '');
 })
+
+// Async Await ES8 feature
