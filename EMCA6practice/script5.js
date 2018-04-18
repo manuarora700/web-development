@@ -15,4 +15,7 @@ console.log('1');
 
 setTimeout(() => {
 	console.log('2');
-}, 2000) //asynchronous programming
+}, 2000) //asynchronous programming 
+
+
+//TRYING OUT BRANCHING, LITTLE FEATURE BRANCH
