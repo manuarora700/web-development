@@ -8,3 +8,11 @@ const flattened = [[0, 1], [2, 3], [4, 5]].reduce(
 		debugger; //New function, freezes the function here
 		return accumulator.concat(array)
 	}, []);
+
+
+//Javascript async await 
+console.log('1');
+
+setTimeout(() => {
+	console.log('2');
+}, 2000) //asynchronous programming
